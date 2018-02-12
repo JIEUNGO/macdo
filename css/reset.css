@@ -1,0 +1,23 @@
+/* reset */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{margin: 0;padding: 0;}
+html{overflow-y:scroll;}
+html,body{height: 100%;overflow: hidden;}
+li{list-style: none;}
+img{max-width: 100%;}
+fieldset{border: none;}
+legend,hr{position: absolute;left: -9999px;}
+caption{text-indent: -9999px;height: 0;overflow: hidden;visibility: hidden;}
+img,button,input[type="submit"],input[type="button"],input[type="reset"]{border: none;vertical-align: middle;}
+a{text-decoration: none;color:#222;}
+body,input,textarea,select,button{color:#222; font: 14px/1.4 Nanum Gothic,'나눔고딕',Malgun Gothic,'맑은고딕',Dotum,'돋움',arial, sans-serif;}
+input,select,button{vertical-align: middle;}
+input[type="text"],input[type="email"],input[type="url"],input[type="search"],input[type="password"],select,textarea{border: 1px solid #d8d8d8;}
+address,em{font-style:normal;}
+h1,h2,h3,h4,h5,h6,strong{font-size: 100%;font-weight: normal;}
+.clearFix:after{content:"";clear: both;display: block;}
+.clearFix{*zoom:1;}
+button,input[type="button"],input[type="submit"],input[type="reset"]{cursor: pointer;}
+table{border-collapse: collapse;border-spacing: 0;}
+th{font-weight: normal;}
+textarea{resize: none;vertical-align: middle;padding: 2px;}
