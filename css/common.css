@@ -33,12 +33,12 @@ textarea{resize: none;vertical-align: middle;padding: 2px;}
 #header_inner{position: relative;}
 .gnb{padding: 30px 0  100px 20px;}
 .gnb .menu1{padding-top: 10px;}
-.gnb .menu1>a{display: block;font-weight: bold;}
+.gnb .menu1 > a{display: block;font-weight: bold;}
 .gnb .menu1.on a,
 .gnb .menu1 a:hover,
 .gnb .menu1 a:focus{color: #c10b0d;text-decoration: underline;}
 .gnb .menu1.on .submenu,
-.gnb .menu1 a:hover .submenu,
+.gnb .menu1 a:hover + .submenu,
 .gnb .menu1 a:focus + .submenu{display: block;}
 .gnb .menu1 .submenu a{font-weight: normal;text-decoration: none;color: #333;}
 .gnb .menu1 .submenu a:hover,
@@ -98,7 +98,8 @@ button.nav_menu{display: block;width: 60px;height: 87px;padding-top: 30px;backgr
 .quick li:nth-child(1) .quk_sub{background: #fff url(../img/common/findus_bg.png) right bottom no-repeat;top: 100px;left: -330px;}
 .quick li:nth-child(2) .quk_sub{width: 200px;top:185px;left: -229px;background-color: #fff;}
 .quick li.on .quk_sub,
-.quick li a:hover + .quk_sub{display: block;}
+.quick li a:hover + .quk_sub,
+.quick li a:focus + .quk_sub{display: block;}
 
 .quk_sub:before{content:"";position: absolute;left: 100%;top: 10px;width: 0;height: 0;border-top: 10px solid transparent;border-left: 15px solid #991c1c;border-bottom: 10px solid transparent;}
 .quk_sub .search_str{width: 222px;padding: 8px;margin-bottom: 10px;background: url(../img/common/search_bg.gif) 0 0 no-repeat;border: none;vertical-align: top;}
