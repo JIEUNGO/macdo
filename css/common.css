@@ -104,9 +104,14 @@ button.nav_menu{display: block;width: 60px;height: 87px;padding-top: 30px;backgr
 .quk_sub:before{content:"";position: absolute;left: 100%;top: 10px;width: 0;height: 0;border-top: 10px solid transparent;border-left: 15px solid #991c1c;border-bottom: 10px solid transparent;}
 .quk_sub .search_str{width: 222px;padding: 8px;margin-bottom: 10px;background: url(../img/common/search_bg.gif) 0 0 no-repeat;border: none;vertical-align: top;}
 .quk_sub .search_btn{margin-left: -5px;}
+.quk_sub #sch_main{width: 161px;border: none;padding: 5px 3px;}
+.quk_sub .sch_submit{border-left: 1px dotted #000;width: 35px;height: 25px;text-indent: -9999px;background: url(../img/common/icon_sch_1.png) 8px 0 no-repeat;}
 .store_menu li{padding-top: 6px;padding-left: 10px;}
 .store_menu li:first-child{padding-top: 0;}
 .sns:before{content:"";display: block;padding-bottom: 40px;width: 26px;border-top: 1px dotted #fff;}
 .sns{padding:340px 17px 0;}
 .sns li+li{padding-top: 17px;}
+
+#footer{width:13%;position: absolute;z-index: 3;bottom: 15px;left:5px;}
+#footer address p{font-size: 11px;}
 
